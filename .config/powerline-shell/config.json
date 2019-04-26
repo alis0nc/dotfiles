@@ -1,0 +1,17 @@
+{
+  "segments": [
+    "virtual_env", 
+    "~/.config/powerline-shell/node_version_short.py",
+    "username", 
+    "~/.config/powerline-shell/hostname_if_ssh.py",
+    "ssh", 
+    "cwd", 
+    "git", 
+    "hg", 
+    "jobs", 
+    "root"
+  ],
+  "hostname": {
+    "colorize": true
+  }
+}

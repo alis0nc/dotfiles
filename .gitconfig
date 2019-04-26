@@ -1,0 +1,25 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Alison Chan
+#	email = alison.chan@detroitlabs.com
+[user]
+	name = Alison Chan
+	email = alison.chan@detroitlabs.com
+[merge]
+	tool = diffmerge
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = /usr/local/bin/code --wait --diff \"$LOCAL\" \"$REMOTE\"
+[difftool "diffmerge"]
+	cmd = /usr/local/bin/diffmerge \"$LOCAL\" \"$REMOTE\"
+[mergetool "diffmerge"]
+	trustExitCode = true
+	cmd = /usr/local/bin/diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+[alias]
+	yank = pull
+	yeet = push
+	last = log -1 HEAD
+	s = status
+	co = checkout

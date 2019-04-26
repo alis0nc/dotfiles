@@ -4,6 +4,8 @@ configuration files
 ## Useful Utilities
 - [fuck](https://github.com/nvbn/thefuck)
 - [nvm](https://github.com/nvm-sh/nvm)
+- [powerline-shell](https://github.com/b-ryan/powerline-shell)
+- [zsh-nvm](https://github.com/lukechilds/zsh-nvm)
 
 ## VS Code
 I use the [VS Code Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
